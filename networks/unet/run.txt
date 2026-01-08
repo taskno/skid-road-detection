@@ -1,0 +1,5 @@
+#Training
+python train.py --train_image_path "..PATH../train_set/images/" --train_mask_path "..PATH../train_set/masks/" --save_path "..PATH../models/" --epoch 20
+
+#Prediction on test set
+python predict.py --checkpoint "..PATH../models/UNetModel.pth" --test_image_path "..PATH../test_set/images/" --save_path "..PATH../test_set/pred_unet/"
