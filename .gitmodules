@@ -1,0 +1,6 @@
+[submodule "networks/sam2unet"]
+	path = networks/sam2unet
+	url = https://github.com/WZH0120/SAM2-UNet.git
+[submodule "networks/sam2unext"]
+	path = networks/sam2unext
+	url = https://github.com/WZH0120/SAM2-UNeXT.git
