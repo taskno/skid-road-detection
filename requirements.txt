@@ -1,0 +1,23 @@
+# Core
+numpy>=1.22
+pandas>=1.3
+
+# Computer Vision
+opencv-python>=4.5
+
+# Deep Learning
+torch>=1.8           # if using PyTorch
+torchvision>=0.9      # if using image models
+tensorflow>=2.5       # if TensorFlow based OR optional
+
+# Dataset & Utils
+scikit-learn>=1.0
+matplotlib>=3.5
+tqdm>=4.64
+
+# Optional (for advanced detection / segmentation)
+albumentations>=1.0
+scipy>=1.7
+
+# CLI / Configs
+pyyaml>=6.0
