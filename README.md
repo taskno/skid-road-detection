@@ -51,16 +51,16 @@ The repository is a collection of UNet and two variations (SAM2-UNet, SAM2-UNeXT
    ```bash
    cd networks/sam2unet
    python test.py --checkpoint "<MODEL-SAVE-DIR>/SAM2-UNet-20.pth" \
-                            --test_image_path "<TEST-SET-DIR>/images/" \
-                            --test_gt_path "<TEST-SET-DIR>/masks/" \
-                            --save_path "<PRED-DIR>/pred_sam2unet/"
+                  --test_image_path "<TEST-SET-DIR>/images/" \
+                  --test_gt_path "<TEST-SET-DIR>/masks/" \
+                  --save_path "<PRED-DIR>/pred_sam2unet/"
 - SAM2-UNeXT
    ```bash
    cd networks/sam2unext
    python test.py --checkpoint "<MODEL-SAVE-DIR>/SAM2-UNeXT-20.pth" \
-                            --test_image_path "<TEST-SET-DIR>/images/" \
-                            --test_gt_path "<TEST-SET-DIR>/masks/" \
-                            --save_path "<PRED-DIR>/pred_sam2unext/"
+                  --test_image_path "<TEST-SET-DIR>/images/" \
+                  --test_gt_path "<TEST-SET-DIR>/masks/" \
+                  --save_path "<PRED-DIR>/pred_sam2unext/"
 4. Evaluate:
 
 *PRED_DIR and GT_DIR (lines 27-28 in eval.py) paths should be set properly depending on the prediction and mask directories of corresponding CNNs.
